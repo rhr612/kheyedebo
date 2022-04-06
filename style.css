@@ -1,0 +1,79 @@
+#content{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#pills-tabConten>.id{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.id > img{
+
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.id{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#header{
+    text-align: center;
+    margin-bottom: 80px;
+    background-color: #F1DB18;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title{
+    text-align: center;
+    background-color: #FEF6B7;
+}
+.pic{
+    border:1px solid black;
+   height: 70px;
+    border-radius: 10px;
+    width: 300px;
+padding-top: 25px;
+    text-align: center;
+    font-family:"Bebas Neue" , "serif";
+}
+
+.pic > a{
+    color: orange
+}
+
+.pic:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+@media only screen and (min-width: 1025px) {
+    .nav-item{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .id > img{
+
+   height: auto;
+    width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #header{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}
